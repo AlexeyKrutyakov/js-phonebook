@@ -5,7 +5,7 @@ develop:
 	DEBUG="hexlet-phonebook" npm run develop
 
 lock:
-	npm shrinkwrap
+	npm ci
 
 build:
 	rm -rf dist
