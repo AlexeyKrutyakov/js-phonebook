@@ -12,7 +12,7 @@ make install
 ## Using
 
 ```
-bin/phonebook
+bin/phonebook.js
 curl localhost:4000
 ```
 
