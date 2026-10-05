@@ -12,7 +12,7 @@
     "develop": "nodemon --exec npm run babel-node -- bin/phonebook.js",
     "test": "jest --colors",
     "eslint": "eslint",
-    "build": "cross-env NODE_ENV=production babel src --out-dir dist --source-maps inline",
+    "build": "cross-env NODE_ENV=production babel src --out-dir dist --source-maps inline --copy-files",
     "prepublishOnly": "npm run build"
   },
   "repository": {

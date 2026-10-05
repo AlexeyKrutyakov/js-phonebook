@@ -46,3 +46,5 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run build
+      - name: Verify build output is self-sufficient
+        run: test -f dist/phonebook.txt
